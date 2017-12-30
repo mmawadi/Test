@@ -1,0 +1,181 @@
+body {
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	background-color: WhiteSmoke;
+}
+
+form{
+	top: 20px;
+	position: relative;	
+}
+
+.container {
+	padding: 20px;
+	margin: 30px;
+	border-radius: 25px;
+	background-color: gray;
+	text-align: center;
+	position: relative;	
+	list-style: none;
+	list-style-position: inside;
+}
+
+table.styledTable {
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid #AAAAAA;
+  position: relative;
+  width	: 96%;
+  background-color: #F7F7F7;
+  text-align: center;
+  border-collapse: collapse;
+  list-style-position: inside;
+}
+table.styledTable td, table.styledTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.styledTable tbody td {
+  font-size: 13px;
+}
+table.styledTable tr:nth-child(even) {
+  background: #F7F7F7;
+}
+table.styledTable thead {
+  background: #444444;
+  background: -moz-linear-gradient(top, #737373 0%, #565656 66%, #444444 100%);
+  background: -webkit-linear-gradient(top, #737373 0%, #565656 66%, #444444 100%);
+  background: linear-gradient(to bottom, #737373 0%, #565656 66%, #444444 100%);
+  border-bottom: 2px solid #444444;
+}
+table.styledTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  height : 90px;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.styledTable thead th:first-child {
+  border-left: none;
+}
+
+table.styledTable tfoot td {
+  font-size: 14px;
+}
+table.styledTable tfoot .links {
+  text-align: right;
+}
+table.styledTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.title {
+	font-family: georgia;
+	font-size: 36px;
+	color: LightSlateGray ;
+	padding: 30px;
+	margin: 0;
+	font-weight: normal;
+	text-align: left;
+	
+}
+
+.titleLink {
+	text-align: left;
+	font-family: georgia;
+	font-size: 24px;
+	color: white;
+	line-height: 80px;
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  list-style-type:none
+}
+
+.titleLink a:link, .titleLink a:hover, .titleLink a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.green {
+	background-color: rgb(0, 128, 123);
+}
+
+.blue {
+	background-color: rgb(0, 255, 119);
+}
+
+.underline {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+label.error {
+	margin: 20px;
+	text-align: left;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.inputField {
+	text-align: left;
+	font-family: georgia;
+	font-size: 24px;
+	line-height: 35px;
+	list-style-type: none;
+	padding-left: 10px;
+	position: relative;
+}
+
+.inputLabel {
+	color: white;
+	margin-right: 10px;
+	line-height: 27px;
+}
+
+input, select {
+	vertical-align: middle;
+	height: 40px;
+	padding-left: 7px;
+    border-radius: 10px;
+}
+
+#submitField {
+	text-align: left;
+}
+
+#submitBtn {
+	width: 150px;
+	height: 80px;
+	padding-left: 7px;
+	margin-bottom: 50px;
+	border: 0px solid gray;
+	border-radius: 15px;
+}
+
+#submitBtn:hover {
+	background-color: SlateGray ;
+	color: white;
+}
+
+fieldset {
+	margin: 20px;
+}
+
+legend {
+	font-size: 20px;
+	text-align: center;
+}
