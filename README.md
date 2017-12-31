@@ -9,3 +9,8 @@ Issues and Assumptions :
 2- I don't check the structure of the Json file before parsing it. so if the json file structure does not match the one I expect a null exception will be thrown. the thrown exception will be ignored and returning the parsed data or empty list.
 
 3- In the GUI I don't make sure that the checkout date is after the checkin date.
+
+
+Heroku Link :
+
+https://expediahotelsmaram.herokuapp.com/BrowseHotels
